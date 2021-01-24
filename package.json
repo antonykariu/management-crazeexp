@@ -1,0 +1,22 @@
+{
+  "name": "management-crazeexp",
+  "version": "1.0.0",
+  "description": "Management Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonykariu/management-crazeexp.git"
+  },
+  "author": "kariuantony@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antonykariu/management-crazeexp/issues"
+  },
+  "homepage": "https://github.com/antonykariu/management-crazeexp#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
