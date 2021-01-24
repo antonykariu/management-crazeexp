@@ -1,11 +1,9 @@
 const express = require("express");
+const home = require("./Routes/home");
 
 const app = express();
-
 const port = process.env.PORT || 5000;
 
-app.use("/", (req, res, next) => {
-  res.status(200).json({ message: "Success" });
-});
+app.use("/", home);
 
-app.listen(port, () => console.log(`Listening on port ${port}`));
+app.listen(port, () => console.log(`listening on port ${port}`));
